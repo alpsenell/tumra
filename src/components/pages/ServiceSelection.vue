@@ -1,10 +1,16 @@
 <template>
-$END$
+  <service-selection
+    :current-page="1">
+  </service-selection>
 </template>
 
 <script>
+import ServiceSelection from '@/components/templates/ServiceSelection'
+
 export default {
-name: "ServiceSelection"
+  components: {
+    ServiceSelection
+  }
 }
 </script>
 

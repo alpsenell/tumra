@@ -1,0 +1,15 @@
+@import "variables";
+
+.arm-button {
+  background-color: $buttonBackgroundColor;
+  width: 100%;
+  padding: 13px 0;
+  color: $white;
+  font-size: $font-size-secondary;
+  cursor: pointer;
+  $self: &;
+
+  &__disabled {
+    pointer-events: none;
+  }
+}

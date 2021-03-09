@@ -1,5 +1,3 @@
 export default {
-  allPlayers: [],
-  selectedPlayers: [],
-  substitutes: [],
-};
+  pageNumber: 1
+}
